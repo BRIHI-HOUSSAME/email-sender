@@ -1,7 +1,3 @@
-Here's the updated README with clarification about adding sample emails in `emails.json`:
-
----
-
 # Email Sender Tool
 
 This project is a TypeScript-based tool for sending emails to multiple recipients using Node.js and Nodemailer. It reads recipient emails from a JSON file and sends a pre-configured email message to each one.
@@ -40,19 +36,9 @@ Execute the main script to send emails to all recipients listed in `emails.json`
 ```bash
 npx ts-node SendEmails.ts
 ```
+This command directly executes the TypeScript file without needing to compile separately.
 
 
 
-## Example Usage
-
-```bash
-npx ts-node SendEmails.ts
-```
-
-This command reads emails from `emails.json` and sends each one an email.
 
 
-
-**License**: This project is open-source and available under the [MIT License](LICENSE).
-
----
