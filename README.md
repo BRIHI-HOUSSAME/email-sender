@@ -27,6 +27,7 @@ Replace `"example1@example.com"` and `"example2@example.com"` with the actual em
 
 In `SendEmails.ts`, replace `your-email@gmail.com` and `your-email-password` with your actual Gmail credentials, and customize the email subject and body .
 
+Note: If using Gmail, enable App Passwords for enhanced security.
 
 
 ### 5. Run the Script
